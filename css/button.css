@@ -29,7 +29,7 @@
   background: #70a6ff;
   border-radius: 50%;
   box-sizing: border-box;
-  top: 750px;
+  top: 150px;
   left: 560px;
 }
 
@@ -59,7 +59,7 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
-  top: 1800px;
+  top: 1600px;
   left: 800px;
 }
 .btn1:hover{
@@ -81,9 +81,53 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
-  top: 1800px;
+  top: 1600px;
   left: 1100px;
 }
 .btn2:hover{
+  opacity: 0.6;
+}
+
+/* 資料請求ダウンロード */
+.btn3{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 3500px;
+  left: 800px;
+}
+.btn3:hover{
+  opacity: 0.6;
+}
+
+/* 無料体験はこちらから */
+.btn4{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 3500px;
+  left: 1100px;
+}
+.btn4:hover{
   opacity: 0.6;
 }

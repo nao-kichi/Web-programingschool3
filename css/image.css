@@ -18,12 +18,26 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 1100px;
+  top: 1000px;
 }
 /* 黒色背景1 */
 .image4 {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 1700px;
+  top: 1550px;
+}
+/* 灰色背景 */
+.image5 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 2650px;
+}
+/* 黒色背景2 */
+.image6 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 3450px;
 }

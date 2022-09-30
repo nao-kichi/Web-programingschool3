@@ -28,10 +28,44 @@
 .text4{
   position: relative;
   font-size: 40px;
-  top: 1600px;
+  top: 1400px;
   margin-left: 50px;
   text-align: left;
   color: #ffffff;
 }
 
+/* 料金表 */
+.text5{
+  position: relative;
+  font-size: 80px;
+  top: 1600px;
+  text-align: center;
+  color: #000000;
+}
+/* TextText */
+.text6{
+  position: relative;
+  font-size: 80px;
+  top: 2400px;
+  text-align: center;
+  color: #000000;
+}
+/* TextText */
+.text7{
+  position: relative;
+  font-size: 50px;
+  top: 2450px;
+  text-align: center;
+  color: #000000;
+}
+
+/* 気になる方はこちらから */
+.text8{
+  position: relative;
+  font-size: 40px;
+  top: 2800px;
+  margin-left: 50px;
+  text-align: left;
+  color: #ffffff;
+}
 
