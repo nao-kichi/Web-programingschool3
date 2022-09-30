@@ -1,0 +1,29 @@
+/* 青色背景 */
+.image1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: auto;
+  z-index: 1;
+}
+/* 学習男の子 */
+.image2 {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  z-index: 2;
+}
+/* 学習集団 */
+.image3 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 1100px;
+}
+/* 黒色背景1 */
+.image4 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 1700px;
+}

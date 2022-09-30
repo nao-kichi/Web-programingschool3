@@ -1,0 +1,89 @@
+/* 角白丸 */
+.border-radius {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  line-height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  top: 200px;
+  left: 100px;
+  z-index: 2;
+}
+
+/* 吹き出し */
+.balloon3 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 0 5px;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  background: #70a6ff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: 750px;
+  left: 560px;
+}
+
+.balloon3:before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #70a6ff;
+  z-index: 1;
+}
+
+/* 資料請求ダウンロード */
+.btn1{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 1800px;
+  left: 800px;
+}
+.btn1:hover{
+  opacity: 0.6;
+}
+
+/* 無料体験はこちらから */
+.btn2{
+  width: 209px;
+  padding: 14px 0 16px 0;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  background: #444;
+  line-height: 1;
+  border-radius: 50px;
+  transition: all .2s;
+  top: 1800px;
+  left: 1100px;
+}
+.btn2:hover{
+  opacity: 0.6;
+}

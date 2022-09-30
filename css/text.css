@@ -1,0 +1,37 @@
+/* タイトル */
+.text1{
+  position: absolute;
+  font-size: 40px;
+  top: 300px;
+  left: 290px;
+  z-index: 3;
+}
+
+/* ここにテキストが入ります。 */
+.text2{
+  position: absolute;
+  font-size: 30px;
+  top: 400px;
+  left: 180px;
+  z-index: 3;
+}
+
+/* こんなお悩みはありませんか??? */
+.text3{
+  position: relative;
+  font-size: 50px;
+  top: 700px;
+  text-align: center;
+}
+
+/* 気になる方はこちらから */
+.text4{
+  position: relative;
+  font-size: 40px;
+  top: 1600px;
+  margin-left: 50px;
+  text-align: left;
+  color: #ffffff;
+}
+
+
