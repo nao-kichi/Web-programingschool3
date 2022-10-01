@@ -15,18 +15,6 @@
   z-index: 2;
 }
 
-@media only screen and (max-width: 480px){
-/* 学習男の子 */
-.image2 {
-  position: absolute;
-  width: 200px;
-  height: auto;
-  top: 200px;
-  left: 500px;
-  z-index: 2;
-}
-}
-
 /* 学習集団 */
 .image3 {
   position: absolute;
