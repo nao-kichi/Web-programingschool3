@@ -96,7 +96,7 @@ table th.popular span.inner{
   position: relative;
   width: 100%;
   padding-top: 75%; /* = height ÷ width × 100 */
-  top: 1300px;
+  top: 1770px;
 }
 .iframe-wrp iframe {
   position: absolute;

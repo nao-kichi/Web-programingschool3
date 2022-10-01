@@ -3,16 +3,16 @@
   position: absolute;
   font-size: 40px;
   top: 300px;
-  left: 290px;
+  left: 220px;
   z-index: 3;
 }
 
 /* ここにテキストが入ります。 */
 .text2{
   position: absolute;
-  font-size: 30px;
-  top: 400px;
-  left: 180px;
+  font-size: 25px;
+  top: 450px;
+  left: 150px;
   z-index: 3;
 }
 
@@ -22,9 +22,10 @@
   font-size: 50px;
   top: 700px;
   text-align: center;
+  margin-right: 200px;
 }
 
-/* 気になる方はこちらから */
+/* お気軽にご相談ください（1分で完了） */
 .text4{
   position: relative;
   font-size: 40px;
@@ -42,10 +43,10 @@
   text-align: center;
   color: #000000;
 }
-/* TextText */
+/* ライトスクール */
 .text6{
   position: relative;
-  font-size: 80px;
+  font-size: 60px;
   top: 2400px;
   text-align: center;
   color: #000000;
@@ -53,17 +54,17 @@
 /* TextText */
 .text7{
   position: relative;
-  font-size: 50px;
+  font-size: 40px;
   top: 2450px;
   text-align: center;
   color: #000000;
 }
 
-/* 気になる方はこちらから */
+/* お気軽にご相談ください（1分で完了） */
 .text8{
   position: relative;
   font-size: 40px;
-  top: 2800px;
+  top: 2820px;
   margin-left: 50px;
   text-align: left;
   color: #ffffff;
@@ -112,7 +113,7 @@
 .text13{
   position: relative;
   font-size: 20px;
-  top: 3950px;
+  top: 4000px;
   margin-left: 50px;
   text-align: left;
   color: #ffffff;

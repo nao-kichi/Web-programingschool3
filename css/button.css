@@ -12,25 +12,86 @@
   left: 100px;
   z-index: 2;
 }
+/* プログラミングを学習したい */
+.balloon1 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 0 5px;
+  width: 160px;
+  height: 160px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+  background: #70a6ff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: -130px;
+  left: 300px;
+}
 
-/* 吹き出し */
+.balloon1:before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #70a6ff;
+  z-index: 1;
+}
+
+/* HPを作成したい */
+.balloon2 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 0 5px;
+  width: 160px;
+  height: 160px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: bold;
+  background: #70a6ff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: -150px;
+  left: 450px;
+}
+
+.balloon2:before {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #70a6ff;
+  z-index: 1;
+}
+
+/* ITスキルを学びたい */
 .balloon3 {
   position: relative;
   display: inline-block;
   margin: 1.5em 0;
   padding: 0 5px;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
+  width: 160px;
+  height: 160px;
+  line-height: 50px;
   text-align: center;
   color: #FFF;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   background: #70a6ff;
   border-radius: 50%;
   box-sizing: border-box;
-  top: -120px;
-  left: 560px;
+  top: -150px;
+  left: 600px;
 }
 
 .balloon3:before {
@@ -59,7 +120,7 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
-  top: 1650px;
+  top: 1670px;
   left: 800px;
 }
 .btn1:hover{
@@ -81,8 +142,8 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
-  top: 1650px;
-  left: 1100px;
+  top: 1670px;
+  left: 1050px;
 }
 .btn2:hover{
   opacity: 0.6;
@@ -103,7 +164,7 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
-  top: 3500px;
+  top: 3520px;
   left: 800px;
 }
 .btn3:hover{
@@ -125,23 +186,22 @@
   line-height: 1;
   border-radius: 50px;
   transition: all .2s;
-  top: 3500px;
-  left: 1100px;
+  top: 3520px;
+  left: 1050px;
 }
 .btn4:hover{
   opacity: 0.6;
 }
 
 /* アコーディオンメニュー 変更しないでね*/
-
 .accordion {
-  position: relative;
-  top: 2200px;
+  position: absolute;
   text-align: left;
   width: 70%;
   padding: 0px 200px;
+  top: 3950px;
+  z-index: 10;
 }
-
 .toggle {
 	display: none;
 }
