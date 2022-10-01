@@ -25,7 +25,7 @@
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 1550px;
+  top: 1600px;
 }
 /* 灰色背景 */
 .image5 {
@@ -40,4 +40,11 @@
   width: 100%;
   text-align: center;
   top: 3450px;
+}
+/* 灰色背景2 */
+.image7 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 4500px;
 }

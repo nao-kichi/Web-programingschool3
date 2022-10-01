@@ -69,3 +69,51 @@
   color: #ffffff;
 }
 
+/* Q&A */
+.text9{
+  position: relative;
+  font-size: 60px;
+  top: 3000px;
+  margin-left: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+/* スクール名 */
+.text10{
+  position: relative;
+  font-size: 40px;
+  top: 3800px;
+  margin-left: 50px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* 会社名 */
+.text11{
+  position: relative;
+  font-size: 20px;
+  top: 3850px;
+  margin-left: 50px;
+  text-align: left;
+  color: #ffffff;
+}
+/* 郵便番号~電話番号 */
+.text12{
+  position: relative;
+  font-size: 20px;
+  top: 3900px;
+  margin-left: 50px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* コピーライト */
+.text13{
+  position: relative;
+  font-size: 20px;
+  top: 3950px;
+  margin-left: 50px;
+  text-align: left;
+  color: #ffffff;
+}
